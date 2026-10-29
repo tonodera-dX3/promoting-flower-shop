@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Cloud Run 用に、実行に必要なファイルだけを .next/standalone に出力する
+  output: "standalone",
   experimental: {
     agentFeedback: true,
   },

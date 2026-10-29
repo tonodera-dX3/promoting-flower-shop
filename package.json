@@ -9,13 +9,18 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@google-cloud/storage": "^8.4.0",
+    "bcryptjs": "^3.0.3",
+    "jose": "^6.2.13",
     "next": "16.4.3",
+    "pg": "^8.23.1",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
+    "@types/pg": "^8.23.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
@@ -23,5 +28,5 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   },
-  "packageManager": "pnpm@11.13.0"
+  "packageManager": "pnpm@12.15.0"
 }
